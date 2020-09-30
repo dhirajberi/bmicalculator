@@ -4,8 +4,8 @@ function bmicalc(weight,height)
     return Math.round(bmi);
 }
 
-var w=prompt("Enter Weight : ");
-var h=prompt("Enter Height : ");
+var w=prompt("Enter Your Weight : ");
+var h=prompt("Enter Your Height : ");
 
 var bmi = bmicalc(w,h);
 
