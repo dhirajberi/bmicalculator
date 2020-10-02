@@ -17,9 +17,11 @@ else if(bmi>18.5 && bmi<25)
 {
     yourbmi= "Normal";
 }
-else
+else if (bmi>=25&&bmi<30)
 {
     yourbmi="Overweight";
 }
-
+else{
+    yourbmi="Obese";
+}
 alert("Hello, your BMI is "+bmi+" it's "+yourbmi);
